@@ -8,4 +8,4 @@ certbot-client-git:
     - name: https://github.com/certbot/certbot
     - target: {{ certbot.cli_install_dir }}
     - force_reset: True
-    - force_fetch: True
+#    - force_fetch: True
